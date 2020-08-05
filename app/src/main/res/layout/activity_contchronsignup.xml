@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:scaleType="fitCenter"
+    android:gravity="center"
+    android:background="#F5E6E3"
+    >
+
+    <TextView
+        android:id="@+id/cdchoose"
+        android:layout_width="167dp"
+        android:layout_height="61dp"
+        android:background="@drawable/border"
+        android:backgroundTint="#FBD5CD"
+        android:gravity="center"
+        android:shadowColor="#FBD5CD"
+        android:shadowDx="4"
+        android:shadowDy="8"
+        android:shadowRadius="2"
+        android:text="اضغط لاختيار الامراض المزمنة"
+        android:textAlignment="center"
+        android:textColor="#5CA490"
+        android:textColorLink="#5CA490"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <TextView
+        android:id="@+id/tttt"
+        android:layout_width="258dp"
+        android:layout_height="35dp"
+        android:text="الامراض التي قمت باختيارها هي :"
+        android:textColor="#5CA490"
+        android:textColorLink="#5CA490"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tttt2"
+        android:layout_width="327dp"
+        android:layout_height="91dp"
+        android:hint="هنا تظهر الامراض التي تختارها"
+        android:textColor="#5CA490"
+        android:textColorHint="#5CA490"
+        android:textColorLink="#5CA490"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.635" />
+
+    <Spinner
+        android:id="@+id/spinnerBT"
+        android:layout_width="257dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="152dp"
+        android:background="#F3B3A5"
+        android:spinnerMode="dropdown"
+        android:text="Gender"
+        android:textColor="#5CA490"
+        android:textColorLink="#5CA490"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.785"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:layout_width="31dp"
+        android:layout_height="26dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_gravity="center"
+        android:src="@drawable/down_arrow"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.757" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_marginBottom="72dp"
+
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="ادخل زمرة دمك"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/nnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/border"
+        android:backgroundTint="#FBD5CD"
+        android:shadowRadius="2"
+        android:shadowColor="#FBD5CD"
+        android:shadowDx="4"
+        android:shadowDy="8"
+        android:gravity="center"
+        android:padding="15dp"
+        android:text="تسجيل الدخول"
+        android:textColor="#5CA490"
+        android:textColorLink="#5CA490"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.904" />
+
+    <ImageView
+        android:id="@+id/imgvw2"
+        android:layout_width="142dp"
+        android:layout_height="132dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/logo2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="383dp"
+        android:layout_height="97dp"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.208">
+
+        <TextView
+            android:id="@+id/chron"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:padding="15dp"
+            android:text="هل لديك أمراض مزمنة؟ حددها:"
+            android:textColor="#5CA490"
+
+            android:textColorLink="#5CA490"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/welcoming"
+        android:layout_width="222dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/pinky"
+        android:text="استكمال التسجيل"
+        android:textStyle="bold"
+        android:textColor="#5CA490"
+        android:textColorLink="#5CA490"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.073" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5E6E3"
+
+    >
+
+    <Button
+        android:id="@+id/btndelvac"
+        android:layout_width="70dp"
+        android:layout_height="53dp"
+        android:layout_below="@+id/camerapreview"
+        android:background="#FBD5CD"
+        android:backgroundTint="#FBD5CD"
+        android:gravity="center"
+        android:shadowColor="#FBD5CD"
+        android:shadowDx="4"
+        android:shadowDy="8"
+        android:shadowRadius="2"
+        android:text="حذف اللقاحات"
+        android:textColor="#FFFF"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.876" />
+
+    <TextView
+        android:id="@+id/text_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#5CA490"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.167" />
+
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+
+        android:id="@+id/calendarView"
+        android:layout_width="408dp"
+        android:layout_height="256dp"
+        android:fontFamily="@font/pinky"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:compactCalendarBackgroundColor="#FBD5CD"
+        app:compactCalendarCurrentDayBackgroundColor="#F3B3A5"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="#F5E6E3"
+        app:compactCalendarMultiEventIndicatorColor="#F3B3A5"
+        app:compactCalendarTargetHeight="250dp"
+        app:compactCalendarTextColor="#85BEAE"
+        app:compactCalendarTextSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.648"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/datebth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="تاريخ ولادة طفلك هو "
+        android:textColor="#5CA490"
+        android:textSize="24sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <TextView
+        android:id="@+id/titmo"
+        android:layout_width="206dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:text="TextView"
+
+        android:textColor="#5CA490"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

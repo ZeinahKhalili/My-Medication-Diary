@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5E6E3">
+
+    <SurfaceView
+        android:id="@+id/camerapreview"
+        android:layout_width="match_parent"
+        android:layout_height="317dp"
+        android:layout_marginTop="100dp" />
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/camerapreview"
+        android:background="@drawable/border"
+        android:backgroundTint="#FBD5CD"
+        android:layout_marginTop="88dp"
+        android:gravity="center"
+        android:textColor="#5CA490"
+        android:textStyle="bold"
+        android:text="من فضلك وجّه الكاميرا على الباركود المخصص للدواء"
+        android:textSize="20sp" />
+
+    <!-- android:text="من فضلك وجّه الكاميرا على الباركود المخصص للدواء" -->
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="101dp"
+        android:layout_height="73dp"
+        android:layout_below="@+id/camerapreview"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="146dp"
+        android:backgroundTint="#FBD5CD"
+        android:gravity="center"
+        android:shadowColor="#FBD5CD"
+        android:shadowDx="4"
+        android:shadowDy="8"
+        android:shadowRadius="2"
+        android:background="#FBD5CD"
+        android:text="إدخال"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>

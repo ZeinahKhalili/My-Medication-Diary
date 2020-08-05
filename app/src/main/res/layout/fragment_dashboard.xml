@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:id="@+id/text_dashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textColor="#5CA490"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.183" />
+
+
+    <Button
+        android:id="@+id/viewmwasures"
+        android:layout_width="208dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FBD5CD"
+
+        android:shadowColor="#FBD5CD"
+        android:shadowDx="4"
+        android:shadowDy="8"
+        android:shadowRadius="2"
+        android:text="أظهر الفحوصات"
+        android:textColor="#5CA490"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.922" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:background="#F5E6E3"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.57"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#F5E6E3"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+
+            <EditText
+                android:id="@+id/textpres"
+                android:layout_width="208dp"
+                android:layout_height="45dp"
+                android:gravity="end"
+                android:hint="أدخل هنا فحص اليوم"
+
+                android:paddingLeft="10dp"
+                android:textAlignment="center"
+                android:textColor="#5CA490"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/sometextpres"
+                android:layout_width="208dp"
+                android:layout_height="45dp"
+                android:textAlignment="center"
+                android:textColor="#5CA490"
+
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#F5E6E3"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+
+            <EditText
+                android:id="@+id/textsug"
+                android:layout_width="208dp"
+                android:layout_height="45dp"
+                android:hint="أدخل هنا فحص اليوم"
+                android:paddingLeft="3dp"
+                android:textAlignment="center"
+
+                android:textColor="#5CA490"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/sometextsug"
+                android:layout_width="208dp"
+                android:layout_height="45dp"
+                android:textAlignment="center"
+                android:textColor="#5CA490"
+
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="#F5E6E3"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints">
+
+
+            <EditText
+                android:id="@+id/texthea"
+                android:layout_width="208dp"
+                android:layout_height="45dp"
+                android:hint="أدخل هنا فحص اليوم"
+                android:paddingLeft="3dp"
+
+                android:textAlignment="center"
+                android:textColor="#5CA490"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/sometexthea"
+                android:layout_width="208dp"
+                android:layout_height="45dp"
+                android:textAlignment="center"
+                android:textColor="#5CA490"
+
+                android:textSize="15dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/insertmeasure"
+        android:layout_width="208dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FBD5CD"
+
+        android:shadowColor="#FBD5CD"
+        android:shadowDx="4"
+        android:shadowDy="8"
+        android:shadowRadius="2"
+        android:text="أدخل فحص اليوم"
+
+        android:textColor="#5CA490"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <Button
+        android:id="@+id/insertmeasure2"
+        android:layout_width="208dp"
+        android:layout_height="45dp"
+        android:backgroundTint="#FBD5CD"
+
+        android:shadowColor="#FBD5CD"
+        android:shadowDx="4"
+        android:shadowDy="8"
+        android:shadowRadius="2"
+        android:text="أدخل فحص جديد"
+
+        android:textColor="#5CA490"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <TextView
+        android:id="@+id/dandan"
+        android:layout_width="208dp"
+        android:layout_height="59dp"
+        android:text="تم ادخال الفحص بنجاح، هل تود إضافة فحص أخر؟"
+        android:textAlignment="center"
+        android:textColor="#5CA490"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.752" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">My Medication Diary</string>
+
+    <string-array name="genders">
+        <item>Male</item>
+        <item>Female</item>
+
+    </string-array>
+    <string-array name="bloodType">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <string-array name="mealsChoices">
+        <item> فطور </item>
+        <item> غداء </item>
+        <item> عشاء </item>
+    </string-array>
+
+    <string-array name="mealstimes">
+        <item> قبل الدواء </item>
+        <item> أثناء الدواء </item>
+        <item> بعد الدواء </item>
+
+    </string-array>
+
+    <string-array name="intervalD">
+        <item> عند انتهاء كمية الدواء </item>
+        <item> بتاريخ محدد </item>
+    </string-array>
+
+    <string-array name="mealstimes2">
+        <item>ساعة</item>
+        <item>ساعتان</item>
+        <item>ثلاثة ساعات</item>
+        <item>أربعة ساعات</item>
+        <item>خمسة ساعات</item>
+        <item>ستة ساعات</item>
+
+
+    </string-array>
+
+    <string name="title_activity_home">الرئيسية</string>
+    <string name="title_home">الرئيسية</string>
+    <string name="title_dashboard">الأدوية</string>
+    <string name="title_notifications">التقويم</string>
+    <string name="title_meal">الوجبات</string>
+    <string name="title_doc">مواعيد الطبيب</string>
+    <string name="title_settings">الإعدادات</string>
+
+    <string-array name="multichoice">
+        <item>السبت</item>
+        <item>الاحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الاربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+    </string-array>
+
+
+    <string-array name="dosetime">
+        <item>كل ساعة</item>
+        <item>كل ساعتين</item>
+        <item>كل ثلاثة ساعات</item>
+        <item>كل أربعة ساعات</item>
+        <item>كل خمسة ساعات</item>
+        <item>كل ستة ساعات</item>
+    </string-array>
+
+
+    <string-array name="eachdays">
+        <item>كل يومين</item>
+        <item>كل ثلاثة أيام</item>
+        <item>كل أربعة أيام</item>
+        <item>كل خمسة أيام</item>
+        <item>كل ستة أيام</item>
+    </string-array>
+
+
+    <string-array name="singlechoice">
+        <item>السبت</item>
+        <item>الاحد</item>
+        <item>الاثنين</item>
+        <item>الثلاثاء</item>
+        <item>الاربعاء</item>
+        <item>الخميس</item>
+        <item>الجمعة</item>
+    </string-array>
+    <string-array name="docspecc">
+        <item>عام</item>
+        <item>قلب</item>
+        <item>انف اذن حنجرة</item>
+        <item>باطني</item>
+        <item>اطفال</item>
+        <item>خاص</item>
+        <item>عيون</item>
+        <item>كلى</item>
+        <item>اسنان</item>
+        <item>نسائية</item>
+        <item>نفسي</item>
+        <item>اخرى</item>
+
+    </string-array>
+    <string-array name="cd">
+        <item>التهاب المفاصل</item>
+        <item>ارتفاع ضغط الدم</item>
+        <item>السكري</item>
+        <item>امراض القلب</item>
+        <item>الزهايمر</item>
+        <item>ارتفاع الدهنيات</item>
+        <item>امراض الكلى المزمنة</item>
+        <item>اخرى</item>
+        <item>لا يوجد</item>
+
+    </string-array>
+
+</resources>

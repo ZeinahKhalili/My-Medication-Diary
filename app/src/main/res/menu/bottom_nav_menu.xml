@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:icon="@drawable/mmm"
+        android:title="الفحوصات" />
+
+    <item
+        android:id="@+id/navigation_doc"
+        android:icon="@drawable/doctor"
+        android:title="@string/title_doc" />
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/house"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/calendar"
+        android:title="@string/title_notifications" />
+    <item
+        android:id="@+id/navigation_meal"
+        android:icon="@drawable/lunch"
+        android:title="@string/title_meal" />
+
+   <!-- <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/settings"
+        android:title="@string/title_settings" />-->
+</menu>

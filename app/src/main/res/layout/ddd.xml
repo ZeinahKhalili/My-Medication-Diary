@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#FBD5CD"
+    android:layout_gravity="center"
+    android:padding="25dp">
+
+
+    <TextView
+        android:id="@+id/sss"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#FBD5CD"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#5CA490"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,71 @@
+
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:background="#F5E6E3"
+android:layout_gravity="center"
+android:padding="25dp">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="221dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="لحذف الحساب، أدخل كلمة المرور"
+        android:textColor="#5CA490" />
+
+    <EditText
+        android:id="@+id/oldpassdi"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+
+        android:inputType="textPassword"
+        android:text=""
+        android:textColor="#5CA490" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#F5E6E3"
+        android:layout_gravity="center"
+        >
+
+
+    <Button
+        android:id="@+id/cancoldpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:background="@drawable/border"
+        android:backgroundTint="#FBD5CD"
+        android:shadowColor="#FBD5CD"
+        android:shadowDx="4"
+        android:shadowDy="8"
+        android:shadowRadius="2"
+        android:text="الغاء"
+        android:textColor="#5CA490" />
+        <Button
+            android:id="@+id/sureoldpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/border"
+            android:backgroundTint="#FBD5CD"
+            android:shadowColor="#FBD5CD"
+            android:shadowDx="4"
+            android:shadowDy="8"
+            android:shadowRadius="2"
+            android:text="تأكيد"
+            android:textColor="#5CA490" />
+    </LinearLayout>
+</LinearLayout>
+

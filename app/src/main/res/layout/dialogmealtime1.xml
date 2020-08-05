@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#FBD5CD"
+    android:layout_gravity="center"
+    android:padding="25dp">
+
+
+    <Button
+        android:id="@+id/btnbef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#FBD5CD"
+        android:background="@drawable/border"
+
+        android:gravity="center"
+        android:text="قبل الدواء"
+        android:textColor="#5CA490"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btndur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#FBD5CD"
+        android:background="@drawable/border"
+
+        android:gravity="center"
+        android:text="مع الدواء"
+        android:textColor="#5CA490"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btnaft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#FBD5CD"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:text="بعد الدواء"
+        android:textColor="#5CA490"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

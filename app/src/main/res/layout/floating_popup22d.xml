@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#F5E6E3"
+    android:layout_gravity="center"
+    android:padding="25dp">
+
+    <Button
+        android:id="@+id/btnnn2D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#FBD5CD"
+        android:gravity="center"
+        android:text="إلغاء"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/btnnnD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:backgroundTint="#FBD5CD"
+        android:gravity="center"
+        android:text="تأكيد"
+        android:textColor="#FFFF"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

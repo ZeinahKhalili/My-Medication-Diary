@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5E6E3"
+    >
+
+
+    <TextView
+        android:id="@+id/suppppppp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+        android:text="مستخدم جديد؟ "
+        android:layout_marginLeft="75dp"
+        android:textColor="#5CA490" />
+
+    <TextView
+        android:id="@+id/sup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="550dp"
+        android:gravity="center"
+        android:text="انضم إلينا!"
+        android:layout_marginRight="65dp"
+
+        android:textColor="#5CA490"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imgvw"
+        android:layout_width="240dp"
+        android:layout_height="244dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logo2" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        >
+
+        <TextView
+            android:id="@+id/logiin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:backgroundTint="#FBD5CD"
+            android:shadowRadius="2"
+            android:shadowColor="#FBD5CD"
+            android:shadowDx="4"
+            android:shadowDy="8"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="تسجيل الدخول"
+            android:textColor="#5CA490"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:layout_marginTop="280dp"
+        android:id="@+id/lnrlyout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/user"
+                    android:layout_gravity="right"/>
+
+                <EditText
+                    android:id="@+id/usrusr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="15dp"
+                    android:background="#00000000"
+                    android:hint="اسم المستخدم"
+                    android:inputType="text"
+                    android:letterSpacing="0.1"
+                    android:textColor="#5CA490"
+                    android:textColorHint="#5CA490" />
+
+                android:textSize="16dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F3B3A5"></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="16dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/password"
+                    android:layout_gravity="right"/>
+                />
+
+                <EditText
+                    android:id="@+id/passwrd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="end"
+                    android:layout_marginLeft="15dp"
+                    android:background="#00000000"
+                    android:hint="كلمة المرور"
+                    android:inputType="textPassword"
+                    android:letterSpacing="0.1"
+                    android:textColor="#5CA490"
+                    android:textColorHint="#5CA490" />
+
+                android:textSize="16dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#F3B3A5"></LinearLayout>
+
+
+            <TextView
+                android:id="@+id/forgetpass"
+                android:layout_width="254dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/border"
+                android:backgroundTint="#FBD5CD"
+                android:gravity="center"
+                android:shadowColor="#FBD5CD"
+                android:shadowDx="4"
+                android:shadowDy="8"
+                android:shadowRadius="2"
+                android:text="هل نسيت كلمة المرور؟"
+                android:textColor="#5CA490"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

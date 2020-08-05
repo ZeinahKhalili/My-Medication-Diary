@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.MyMedicationDiary">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".measures"></activity>
+        <activity android:name=".T" />
+        <activity android:name=".manualAdd" />
+        <activity
+            android:name=".ProfileActivity"
+            tools:targetApi="jelly_bean" />
+        <activity android:name=".notmed2" />
+        <activity android:name=".notmed" />
+        <activity android:name=".notificationDocApp" />
+        <activity android:name=".something" />
+        <activity android:name=".medshow" />
+        <activity android:name=".mealsActivity" />
+        <activity android:name=".newDoc" />
+        <activity android:name=".mymeds" />
+        <activity android:name=".weekk" />
+        <activity android:name=".newMed" />
+        <activity android:name=".camactivity" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home" />
+        <activity android:name=".contchronsignup" />
+        <activity android:name=".contSignUp" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name=".BroadcastManager"
+            android:label="BroadcastReceiverAux">
+            <intent-filter>
+                <action android:name="ALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BroadcastManager2"
+            android:label="BroadcastReceiverAux">
+            <intent-filter>
+                <action android:name="INTERACTION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BroadcastManager3"
+            android:label="BroadcastReceiverAux">
+            <intent-filter>
+                <action android:name="MEALALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BroadcastManager4"
+            android:label="BroadcastReceiverAux">
+            <intent-filter>
+                <action android:name="MEDSALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".BroadcastManager5"
+            android:label="BroadcastReceiverAux">
+            <intent-filter>
+                <action android:name="SNOOZEALARM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".notmed">
+            <intent-filter android:priority="999">
+                <action android:name="RECMED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".notmed2">
+            <intent-filter android:priority="999">
+                <action android:name="SNOOZE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".LastPillBroad">
+            <intent-filter android:priority="999">
+                <action android:name="LAST" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".LastPillBroadCanc">
+            <intent-filter android:priority="999">
+                <action android:name="CANCELLAST" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadcastManagerV">
+            <intent-filter android:priority="999">
+                <action android:name="VAC" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadcastManagertips">
+            <intent-filter>
+                <action android:name="TIP" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".endinterval">
+            <intent-filter>
+                <action android:name="ENDINTER" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".T">
+            <intent-filter>
+                <action android:name="TName" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="com.google.android.gms.vision.DEPENDENCIES"
+            android:value="barcode" />
+    </application>
+
+</manifest>

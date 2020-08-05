@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="#fce0e8"
+    android:layout_gravity="center"
+    android:padding="25dp">
+
+
+    <EditText
+        android:id="@+id/rrrd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#fcd6e0"
+        android:gravity="center"
+        android:textColor="#fb1953"
+        android:hint="تخصص الطبيب"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bsdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#fcd6e0"
+        android:gravity="center"
+        android:text="تأكيد"
+        android:textColor="#fb1953"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/bndd"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="#fcd6e0"
+        android:gravity="center"
+        android:text="تراجع"
+        android:textColor="#fb1953"
+        android:textSize="20sp" />
+
+
+</LinearLayout>
